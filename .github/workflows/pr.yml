@@ -1,11 +1,11 @@
 name: Test Full Build
-on:
-  pull_request:
-    branches:
-      - master
-    paths-ignore:
-      - '**.md'
-      - 'LICENSE'
+# on:
+#   pull_request:
+#     branches:
+#       - master
+#     paths-ignore:
+#       - '**.md'
+#       - 'LICENSE'
 
 env:
   DOCKER_BUILDKIT: 1
